@@ -26,7 +26,8 @@ body {
     width: 140px;
     height: 140px;
     border-radius: 100px;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgb(149, 168, 250);
 }
 .header h1 {
     font-size:2.5rem;
@@ -94,3 +95,220 @@ body {
 
 
 
+@media (min-width: 1350px) and (max-width: 1920px) {
+    .header img {
+        width: 180px;
+        height: 180px;
+        margin: 50px auto;
+    }
+    .header h1 {
+        font-size:3.2rem;
+    }
+    .header h3 {
+        font-size: 2.2rem;
+    }
+
+    .navbar-icon {
+        margin: 50px auto;
+    }
+    .navbar-icon ul {
+        width: 65%;
+    }
+    .navbar-icon a {
+        padding: 15px;
+    }
+    .navbar-icon a ion-icon {
+        width: 60px;
+        height: 60px;
+    }
+   
+    .navbar-link ul {
+        width: 50%;
+    }
+    .navbar-link li {
+        border: 2px solid white;
+        margin: 20px auto;
+        padding: 20px;        
+    }
+    .navbar-link a {
+        font-size: 2rem;       
+    }
+}
+
+
+@media (min-width: 900px) and (max-width: 1340px) {
+    .header img {
+        width: 150px;
+        height: 150px;       
+    }
+    .header h1 {
+        font-size:2.3rem;       
+    }
+    .header h3 {
+        font-size: 1.8rem;
+    }
+ 
+    .navbar-icon {
+        width: 100%;
+        margin:25px auto;
+    }
+    .navbar-icon ul {
+        width: 55%;
+    }
+    .navbar-icon a {
+        padding: 12px;
+    }
+    .navbar-icon a ion-icon {
+        width: 35px;
+        height: 35px;
+        color: #fff;
+    }
+
+    .navbar-link ul {
+        margin: 10px auto;
+        width:55%;
+    }
+    .navbar-link li {
+        margin: 10px auto;       
+    }
+    .navbar-link a {
+        font-size: 1rem;       
+    }
+}
+
+
+@media (min-width: 710px) and (max-width: 898px) {
+    .header img {
+        width: 120px;
+        height: 120px;
+    }
+    .header h1 {
+        font-size:1.8rem;
+        margin: 0px auto;
+    }
+    .header h3 {
+        font-size: 1.2rem;
+        margin-top: 0px;
+    }
+
+    .navbar-icon {
+        margin:20px auto;
+    }
+    .navbar-icon ul {
+        width: 55%;
+    }
+    .navbar-icon a {
+        padding: 10px;
+    }
+    .navbar-icon a ion-icon {
+        width: 40px;
+        height: 40x;
+        color: #fff;
+    }
+
+
+    .navbar-link {
+    width: 100%;
+    }
+    .navbar-link ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        margin: 10px auto;
+        width:65%;
+    }
+    .navbar-link li {
+        margin: 15px auto;        
+    }
+    .navbar-link a {
+        font-size: 1.1rem;       
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 708px) {
+    .header img {
+        width: 120px;
+        height: 120px;
+    }
+    .header h1 {
+        font-size:1.6rem;
+    }
+    .header h3 {
+        font-size: 1rem;
+    }
+
+    .navbar-icon {
+        width: 100%;
+        margin:20px auto;
+    }
+    .navbar-icon ul {
+        width:70%;
+    }
+    .navbar-icon a {
+        padding: 10px;
+    }
+    .navbar-icon a ion-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-link ul {
+        margin: 10px auto;
+        width:80%;
+    }
+    .navbar-link li {
+        margin: 15px auto;
+    }
+    .navbar-link a {
+        font-size: 1rem;     
+    }
+}
+
+@media (min-width: 280px) and (max-width: 498px) {
+    .header img {
+        width: 100px;
+        height: 100px;
+        margin: 12px auto;
+    }
+    .header h1 {
+        font-size:1.2rem;
+        margin: 0px auto;
+        letter-spacing: 1.5px;
+    }
+    .header h3 {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
+
+    .navbar-icon {
+        margin:30px auto;
+    }
+    .navbar-icon ul {
+        width:80%;
+    }
+    .navbar-icon a {
+        padding: 10px;
+    }
+    .navbar-icon a ion-icon {
+        width: 30px;
+        height: 30px;
+        color: #fff;
+    }
+
+    .navbar-link {
+    width: 100%;
+    }
+    .navbar-link ul {
+        margin: 10px auto;
+        width:80%;
+    }
+    .navbar-link li {
+        margin: 10px auto;
+    }
+    .navbar-link a {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+    }
+}
