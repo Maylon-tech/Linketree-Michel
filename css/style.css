@@ -296,11 +296,11 @@ body {
     .header img {
         width: 100px;
         height: 100px;
-        margin: 12px auto;
+        margin: 10px auto;
     }
     .header h1 {
         font-size:1.2rem;
-        margin-TOP: 30px;
+        margin-TOP: 20px;
         letter-spacing: 1.5px;
     }
     .header h3 {
@@ -310,6 +310,8 @@ body {
 
     .navbar-icon {
         margin:30px auto;
+        margin-top:20px;
+        margin-bottom: 0;
     }
     .navbar-icon ul {
         width:80%;
@@ -324,14 +326,14 @@ body {
     }
 
     .navbar-link {
-    width: 100%;
+        margin-top: 10px;
     }
     .navbar-link ul {
         margin: 50px auto;
         width:80%;
     }
     .navbar-link li {
-        margin: 30px auto;
+        margin: 10px auto;
         padding: 7px;
     }
     .navbar-link a {
