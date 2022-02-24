@@ -8,9 +8,10 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/banner.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/michel\ teenager\ age.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     overflow: hidden;
 }
 
@@ -90,12 +91,41 @@ body {
     font-size: 1.2rem;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.navbar-link a span {
+    margin-left: 10px;
+}
+.navbar-link a ion-icon {
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    display: inline-block;
+}
+.navbar-link a .html {
+    color: orange;
+}
+.navbar-link a .css {
+    color: rgb(65, 140, 238);
+}
+.navbar-link a .js {
+    color: yellow;
+}
+.navbar-link a .control {
+    color: purple;
+}
+.navbar-link a .node {
+    color: green;
+}
+.navbar-link a .react {
+    color: lightskyblue;
 }
 
 
 
 
-@media (min-width: 1350px) and (max-width: 1920px) {
+@media (min-width: 1350px) and (max-width: 1920px) {    /* FOR WIDE MONITOR*/
     .header img {
         width: 180px;
         height: 180px;
@@ -136,7 +166,7 @@ body {
 }
 
 
-@media (min-width: 900px) and (max-width: 1340px) {
+@media (min-width: 900px) and (max-width: 1340px) {  /* FOR LAPTOP MONITOR*/
     .header img {
         width: 150px;
         height: 150px;       
@@ -153,14 +183,14 @@ body {
         margin:25px auto;
     }
     .navbar-icon ul {
-        width: 55%;
+        width: 50%;
     }
     .navbar-icon a {
-        padding: 12px;
+        padding: 10px;
     }
     .navbar-icon a ion-icon {
-        width: 35px;
-        height: 35px;
+        width: 30px;
+        height: 30px;
         color: #fff;
     }
 
@@ -169,7 +199,8 @@ body {
         width:55%;
     }
     .navbar-link li {
-        margin: 10px auto;       
+        margin: 10px auto;  
+        padding: 8px;     
     }
     .navbar-link a {
         font-size: 1rem;       
@@ -177,7 +208,7 @@ body {
 }
 
 
-@media (min-width: 710px) and (max-width: 898px) {
+@media (min-width: 710px) and (max-width: 898px) {   /* FOR IPAD SCREEM     */
     .header img {
         width: 120px;
         height: 120px;
@@ -206,10 +237,6 @@ body {
         color: #fff;
     }
 
-
-    .navbar-link {
-    width: 100%;
-    }
     .navbar-link ul {
         display: flex;
         flex-direction: column;
@@ -225,7 +252,6 @@ body {
         font-size: 1.1rem;       
     }
 }
-
 
 @media (min-width: 500px) and (max-width: 708px) {
     .header img {
@@ -266,7 +292,7 @@ body {
     }
 }
 
-@media (min-width: 280px) and (max-width: 498px) {
+@media (min-width: 280px) and (max-width: 498px) {       /*   FOR ANDRIOD - IPHONE - TABLET     */
     .header img {
         width: 100px;
         height: 100px;
@@ -274,7 +300,7 @@ body {
     }
     .header h1 {
         font-size:1.2rem;
-        margin: 0px auto;
+        margin-TOP: 30px;
         letter-spacing: 1.5px;
     }
     .header h3 {
@@ -301,11 +327,12 @@ body {
     width: 100%;
     }
     .navbar-link ul {
-        margin: 10px auto;
+        margin: 50px auto;
         width:80%;
     }
     .navbar-link li {
-        margin: 10px auto;
+        margin: 30px auto;
+        padding: 7px;
     }
     .navbar-link a {
         font-size: 0.7rem;
