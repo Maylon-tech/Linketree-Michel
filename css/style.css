@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-
+@import 'animation.css';
 * {
     margin: 0%;
     padding: 0%;
@@ -29,6 +29,8 @@ body {
     border-radius: 100px;
     margin: 20px auto;
     box-shadow: 0 0 20px rgb(149, 168, 250);
+    -webkit-animation: floating 2s ease-in-out infinite;
+    animation: floating 2s ease-in-out infinite;
 }
 .header h1 {
     font-size:2.5rem;
@@ -127,19 +129,19 @@ body {
 
 @media (min-width: 1350px) and (max-width: 1920px) {    /* FOR WIDE MONITOR*/
     .header img {
-        width: 180px;
-        height: 180px;
-        margin: 50px auto;
+        width: 140px;
+        height: 140px;
+        margin: 18px auto;
     }
     .header h1 {
-        font-size:3.2rem;
+        font-size:2.4rem;
     }
     .header h3 {
-        font-size: 2.2rem;
+        font-size:1.6rem;
     }
 
     .navbar-icon {
-        margin: 50px auto;
+        margin: 20px auto;
     }
     .navbar-icon ul {
         width: 65%;
@@ -148,8 +150,8 @@ body {
         padding: 15px;
     }
     .navbar-icon a ion-icon {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
    
     .navbar-link ul {
@@ -157,11 +159,11 @@ body {
     }
     .navbar-link li {
         border: 2px solid white;
-        margin: 20px auto;
+        margin: 13px auto;
         padding: 20px;        
     }
     .navbar-link a {
-        font-size: 2rem;       
+        font-size: 1.1rem;       
     }
 }
 
